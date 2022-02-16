@@ -1,0 +1,74 @@
+@charset "EUC-KR";
+	.input-box {
+		width: 1000px;
+		display: flex;
+		justify-content: space-between;
+		margin: 40px 0;
+	}
+	.my-wrap {
+		background-color:#F6F6F6;
+		display: flex;
+		justify-content: center;
+		height: 650px;
+    	align-items: center;
+	}
+	.input-box>div {
+		display: flex;
+		font-size: 20px;
+	}
+	.input-box>div:last-child {
+		width: 465px;
+	}
+	.left-text {
+		width: 150px; font-weight: bold; font-size: 17px; margin-left: 70px; color: #5D5D5D; margin-top: 4px;
+	}
+	.right-text {
+		width: 100px;  font-weight: bold; font-size: 17px; color: #5D5D5D; margin-top: 4px;
+	}
+	.btn-box {
+		padding-left: 10px;
+	}
+	input, button {
+		border-radius: 5px;
+		border-color: #FFFFF4;
+		font-size: 15px;
+	}
+	button {
+		background-color: #F6F6F6; font-weight: bold; color: #353535; border-color: #F6F6F6;
+	}
+	.btn-div>button {
+		margin: 0 5px;
+    	width: 90px; font-weight: bold; font-size: 15px;
+	}
+	.fontname{ font-family: HCR Batang; font-weight: bold;}
+	
+	.hr{ border: 1px solid white; }
+	.st{ text-align: center; font-size: 30px;  font-weight: bold; color: #5D5D5D; }
+	.email-model {
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		-o-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		display: none;
+		background-color: #fff;
+		width: 500px;
+   		height: 250px;
+   		border-radius: 6px;
+	}
+	.cursor {
+		cursor:pointer;
+	}
+	#email-model-delete {
+		width: 20px;
+		height: 20px;
+	}
+	.email-model-delete-box {
+		display: flex;
+    	justify-content: space-between;
+    	align-items: center;
+	}
+	

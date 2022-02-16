@@ -1,0 +1,33 @@
+@charset "EUC-KR";
+td {
+	height: 50px;
+}
+
+
+
+.membership-box {
+	display: flex;
+    justify-content: center;
+    padding-right: 10px;
+    padding-top: 20px;
+    margin-left: 122px;
+}
+
+.membership-table {
+	position: relative;
+	left: 60px;
+	top: 130px;
+}
+
+input {
+	border-radius: 5px;
+	border: none;
+	font-family: HCR Batang; font-weight: bold;
+}
+
+.but {
+	border-color: #B0C6E7;
+	border-radius: 5px;
+	background-color: #B0C6E7;
+	font-weight: bold;
+}
